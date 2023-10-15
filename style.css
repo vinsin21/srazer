@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box:hover{
+
+    box-shadow: 5px 5px 12px lightgray;
+
+    transition: all;
+    transition-duration: 200ms;
+    
+
+
+}
+
+.boxed:hover{
+
+    box-shadow: 0px 0px 20px black;
+
+
+    border: none;
+
+    transition: all;
+    transition-duration: 200ms;
+    
+
+
+}
+
+
+
+
